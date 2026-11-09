@@ -8,7 +8,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://concept-teddy-kings-teaches.trycloudflare.com/v1",
+        "baseURL": "https://showtimes-eval-located-year.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 120000
       },
@@ -26,9 +26,6 @@
     "bash": "allow",
     "grep": "allow",
     "glob": "allow",
-    "webfetch": "allow",
-    "external_directory": {
-      "C:/Users/user/Desktop/dumper/**": "allow"
-    }
+    "webfetch": "allow"
   }
 }
