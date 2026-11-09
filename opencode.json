@@ -8,7 +8,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://agent-glass-charging-citizens.trycloudflare.com/v1",
+        "baseURL": "https://concept-teddy-kings-teaches.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 120000
       },
