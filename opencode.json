@@ -1,18 +1,21 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "opencode-ollama-toolcall-proxy"
+  ],
   "provider": {
     "kaggle-ollama": {
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://theorem-luther-newsletter-carried.trycloudflare.com/v1",
+        "baseURL": "https://plastic-worker-sites-star.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 120000
       },
       "models": {
-        "qwen2.5-coder-14b": {
-          "name": "qwen2.5-coder-14b (Kaggle)",
-          "tools": false
+        "gemma-4-E4B-it-Q4_K_M": {
+          "name": "gemma-4-E4B-it-Q4_K_M (Kaggle)",
+          "tools": true
         }
       }
     }
@@ -23,6 +26,9 @@
     "bash": "allow",
     "grep": "allow",
     "glob": "allow",
-    "webfetch": "allow"
+    "webfetch": "allow",
+    "external_directory": {
+      "C:/Users/user/Desktop/**": "allow"
+    }
   }
 }
