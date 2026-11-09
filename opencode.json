@@ -1,21 +1,18 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugin": [
-    "opencode-ollama-toolcall-proxy"
-  ],
   "provider": {
     "kaggle-ollama": {
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://showtimes-eval-located-year.trycloudflare.com/v1",
+        "baseURL": "https://theorem-luther-newsletter-carried.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 120000
       },
       "models": {
         "qwen2.5-coder-14b": {
           "name": "qwen2.5-coder-14b (Kaggle)",
-          "tools": true
+          "tools": false
         }
       }
     }
