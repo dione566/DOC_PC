@@ -8,13 +8,13 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://deserve-workshops-sweet-possibilities.trycloudflare.com/v1",
+        "baseURL": "https://feeding-edges-loans-satin.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 120000
       },
       "models": {
-        "qwen2.5-coder-7b-instruct-q4": {
-          "name": "qwen2.5-coder-7b-instruct-q4 (Kaggle)",
+        "qwen2.5-coder-14b": {
+          "name": "qwen2.5-coder-14b (Kaggle)",
           "tools": true
         }
       }
