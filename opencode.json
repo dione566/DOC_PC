@@ -8,7 +8,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://hazards-europe-regions-commissioners.trycloudflare.com/v1",
+        "baseURL": "https://being-commission-scripting-dem.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 120000
       },
