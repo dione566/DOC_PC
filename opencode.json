@@ -8,13 +8,13 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://being-commission-scripting-dem.trycloudflare.com/v1",
+        "baseURL": "https://accordance-investor-five-express.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 120000
       },
       "models": {
-        "gemma-4-E4B-it-Q4_K_M": {
-          "name": "gemma-4-E4B-it-Q4_K_M (Kaggle)",
+        "qwen2.5-coder": {
+          "name": "qwen2.5-coder (Kaggle)",
           "tools": true
         }
       }
