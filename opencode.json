@@ -8,13 +8,13 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://wma-rebecca-greg-periods.trycloudflare.com/v1",
+        "baseURL": "https://edward-inclusion-wallpaper-communities.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 120000
       },
       "models": {
-        "qwen2.5-coder": {
-          "name": "qwen2.5-coder (Kaggle)",
+        "gemma-4-E4B": {
+          "name": "gemma-4-E4B (Kaggle)",
           "tools": true
         }
       }
