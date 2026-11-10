@@ -8,13 +8,12 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://figure-listening-spent-consistency.trycloudflare.com/v1",
-        "apiKey": "ollama-kaggle",
-        "chunkTimeout": 120000
+        "baseURL": "https://polyester-jonathan-published-rare.trycloudflare.com/v1",
+        "apiKey": "ollama-kaggle"
       },
       "models": {
-        "gemma-4-E4B": {
-          "name": "gemma-4-E4B (Kaggle)",
+        "qwen2.5-coder": {
+          "name": "qwen2.5-coder (Kaggle)",
           "tools": true
         }
       }
