@@ -8,12 +8,13 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://act-basics-freely-forests.trycloudflare.com/v1",
-        "apiKey": "ollama-kaggle"
+        "baseURL": "https://complimentary-existence-folk-operating.trycloudflare.com/v1",
+        "apiKey": "ollama-kaggle",
+        "chunkTimeout": 120000
       },
       "models": {
-        "gemma-4-E4B": {
-          "name": "gemma-4-E4B (Kaggle)",
+        "gemma-4-e4b": {
+          "name": "gemma-4-e4b (Kaggle)",
           "tools": true
         }
       }
