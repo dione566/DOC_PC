@@ -8,7 +8,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://crafts-duke-shaved-tax.trycloudflare.com/v1",
+        "baseURL": "https://alpine-forming-wage-maiden.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 120000
       },
