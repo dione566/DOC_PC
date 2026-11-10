@@ -8,16 +8,27 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://loves-surrey-nickname-strategies.trycloudflare.com/v1",
+        "baseURL": "https://spare-indie-approx-butter.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
-        "chunkTimeout": 120000
+        "chunkTimeout": 300000,
+        "timeout": false
       },
       "models": {
         "gemma-4-e4b": {
           "name": "gemma-4-e4b (Kaggle)",
-          "tools": true
+          "tools": true,
+          "limit": {
+            "context": 32768,
+            "output": 4096
+          }
         }
       }
+    }
+  },
+  "compaction": {
+    "auto": true,
+    "keep": {
+      "tokens": 4096
     }
   },
   "permission": {
