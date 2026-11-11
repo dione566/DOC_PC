@@ -6,16 +6,16 @@
   "provider": {
     "kaggle-ollama": {
       "npm": "@ai-sdk/openai-compatible",
-      "name": "Kaggle Ollama (Cloudflare)",
+      "name": "Ollama (Ngrok Fixo)",
       "options": {
-        "baseURL": "https://covered-forestry-tribes-tablet.trycloudflare.com/v1",
+        "baseURL": "https://display-author-stony.ngrok-free.dev/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 300000,
         "timeout": false
       },
       "models": {
         "gemma-4-e4b": {
-          "name": "gemma-4-e4b (Kaggle)",
+          "name": "gemma-4-e4b",
           "tools": true,
           "limit": {
             "context": 65534,
