@@ -14,8 +14,8 @@
         "timeout": false
       },
       "models": {
-        "mimo-v2.6-9b-heretic": {
-          "name": "mimo-v2.6-9b-heretic",
+        "MiMo-V2.6-Distill": {
+          "name": "MiMo-V2.6-Distill",
           "tools": true,
           "limit": {
             "context": 65536,
