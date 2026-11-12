@@ -14,8 +14,8 @@
         "timeout": false
       },
       "models": {
-        "MiMo-V2.6-Distill": {
-          "name": "MiMo-V2.6-Distill",
+        "gemma-4-e4b": {
+          "name": "gemma-4-e4b",
           "tools": true,
           "limit": {
             "context": 65536,
