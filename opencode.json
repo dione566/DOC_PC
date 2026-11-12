@@ -14,11 +14,11 @@
         "timeout": false
       },
       "models": {
-        "gemma-4-e4b": {
-          "name": "gemma-4-e4b",
+        "mimo-v2.6-9b-heretic": {
+          "name": "mimo-v2.6-9b-heretic",
           "tools": true,
           "limit": {
-            "context": 262144,
+            "context": 65536,
             "output": 4096
           }
         }
