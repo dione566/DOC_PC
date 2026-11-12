@@ -18,7 +18,7 @@
           "name": "gemma-4-e4b",
           "tools": true,
           "limit": {
-            "context": 131072,
+            "context": 262144,
             "output": 4096
           }
         }
