@@ -6,19 +6,19 @@
   "provider": {
     "kaggle-ollama": {
       "npm": "@ai-sdk/openai-compatible",
-      "name": "Ollama (Ngrok Fixo)",
+      "name": "Kaggle Ollama (Cloudflare)",
       "options": {
-        "baseURL": "https://display-author-stony.ngrok-free.dev/v1",
+        "baseURL": "https://england-among-directly-labor.trycloudflare.com/v1",
         "apiKey": "ollama-kaggle",
         "chunkTimeout": 300000,
         "timeout": false
       },
       "models": {
         "gemma-4-e4b": {
-          "name": "gemma-4-e4b",
+          "name": "gemma-4-e4b (Kaggle)",
           "tools": true,
           "limit": {
-            "context": 65536,
+            "context": 65534,
             "output": 4096
           }
         }
